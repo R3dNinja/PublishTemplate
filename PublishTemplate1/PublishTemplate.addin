@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command PublishTemplate</Text>
+    <Description>Some description for PublishTemplate</Description>
+    <Assembly>PublishTemplate1.dll</Assembly>
+    <FullClassName>PublishTemplate.Command</FullClassName>
+    <ClientId>e9ce7967-f5c8-4ace-95e7-4d6e98761f25</ClientId>
+    <VendorId>Kirksey</VendorId>
+    <VendorDescription>Kirksey Architecture, http://kirksey.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application PublishTemplate</Name>
+    <Assembly>PublishTemplate1.dll</Assembly>
+    <FullClassName>PublishTemplate.App</FullClassName>
+    <ClientId>89e77997-e10b-43ff-9844-9d9517d2ee7a</ClientId>
+    <VendorId>Kirksey</VendorId>
+    <VendorDescription>Kirksey Architecture, http://kirksey.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
